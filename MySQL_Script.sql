@@ -138,7 +138,6 @@ USE testdb;
 show TABLES;
 
 -- Check Database Character Encoding
-
 SHOW CREATE DATABASE testdb;
 SHOW CREATE TABLE MERGGED_TABLE;
 
