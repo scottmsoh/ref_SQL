@@ -25,3 +25,4 @@ SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY_CURSOR(null,null, 'ALLSTATS LAST'));</br>
      (SELECT department_id, ROUND(AVG(salary),2) AVG_SAL</br>
      FROM employees</br>
      GROUP by department_id) B</br>
+
